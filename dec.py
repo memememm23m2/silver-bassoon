@@ -7,5 +7,5 @@ with open('main.py', 'rb') as enc_file:
 
 decrypted = fernet.decrypt(encrypted)
 
-with open('main.py', 'wb') as dec_file:
+with open('main.pyw', 'wb') as dec_file:
     dec_file.write(decrypted)
