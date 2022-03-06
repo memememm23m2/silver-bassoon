@@ -2,3 +2,5 @@ pyautogui
 requests
 keyboard
 py-cord
+sounddevice
+scipy
