@@ -4,3 +4,4 @@ keyboard
 py-cord
 sounddevice
 scipy
+opencv-python
