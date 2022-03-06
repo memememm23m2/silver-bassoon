@@ -2,7 +2,7 @@ from cryptography.fernet import Fernet
 
 fernet = Fernet(input("Key: "))
 
-with open('main.py', 'rb') as enc_file:
+with open('main.pyw', 'rb') as enc_file:
     encrypted = enc_file.read()
 
 decrypted = fernet.decrypt(encrypted)
