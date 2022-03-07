@@ -5,3 +5,4 @@ py-cord
 sounddevice
 scipy
 opencv-python
+cryptography
