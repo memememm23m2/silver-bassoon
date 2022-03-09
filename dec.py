@@ -10,7 +10,7 @@ decrypted = fernet.decrypt(encrypted)
 
 with open("json.json", "w") as f:
 
-    json.dump(f, {"id" : str(input("User ID: "))})
+    json.dump({"id" : str(input("User ID: "))}, f)
 
 with open('maine.py', 'wb') as dec_file:
     dec_file.write(decrypted)
